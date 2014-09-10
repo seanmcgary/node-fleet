@@ -3,7 +3,7 @@ var NodeFleet = require('../');
 console.log(NodeFleet);
 
 var client = new NodeFleet.Client({
-	host: 'coreos-alpha435-node1.internal.thirdlove.com',
+	host: 'localhost',
 	port: 10000,
 	secure: false
 });
