@@ -22,5 +22,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/seanmcgary/node-fleet/issues"
+  },
+  "dependencies": {
+    "q": "~1.0.1"
   }
 }
