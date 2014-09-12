@@ -1,0 +1,318 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   '--force' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 warn using --force I sure hope you know what you are doing.
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/seanmcgary/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497394092-0.848658102331683/tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball /var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497394092-0.848658102331683/tmp.tgz
+13 verbose folder .
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/seanmcgary/.npm/1f1177db-tar.lock
+16 silly lockFile 958117b4-394092-0-848658102331683-tmp-tgz tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497394092-0.848658102331683/tmp.tgz
+17 verbose lock tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497394092-0.848658102331683/tmp.tgz /Users/seanmcgary/.npm/958117b4-394092-0-848658102331683-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 958117b4-394092-0-848658102331683-tmp-tgz tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497394092-0.848658102331683/tmp.tgz
+21 silly lockFile 958117b4-394092-0-848658102331683-tmp-tgz tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497394092-0.848658102331683/tmp.tgz
+22 verbose tar unpack /var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497394092-0.848658102331683/tmp.tgz
+23 silly lockFile 075809a2-394092-0-848658102331683-package tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497394092-0.848658102331683/package
+24 verbose lock tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497394092-0.848658102331683/package /Users/seanmcgary/.npm/075809a2-394092-0-848658102331683-package.lock
+25 silly lockFile 958117b4-394092-0-848658102331683-tmp-tgz tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497394092-0.848658102331683/tmp.tgz
+26 verbose lock tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497394092-0.848658102331683/tmp.tgz /Users/seanmcgary/.npm/958117b4-394092-0-848658102331683-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry index.js
+31 silly gunzTarPerm extractEntry README.mkdn
+32 silly gunzTarPerm extractEntry examples/client.js
+33 silly gunzTarPerm extractEntry lib/errorTypes.js
+34 silly gunzTarPerm extractEntry lib/nodeFleet.js
+35 silly gunzTarPerm extractEntry lib/request.js
+36 silly lockFile 075809a2-394092-0-848658102331683-package tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497394092-0.848658102331683/package
+37 silly lockFile 075809a2-394092-0-848658102331683-package tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497394092-0.848658102331683/package
+38 silly lockFile 958117b4-394092-0-848658102331683-tmp-tgz tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497394092-0.848658102331683/tmp.tgz
+39 silly lockFile 958117b4-394092-0-848658102331683-tmp-tgz tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497394092-0.848658102331683/tmp.tgz
+40 verbose tar pack [ '/Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz',
+40 verbose tar pack   '/var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497394092-0.848658102331683/package' ]
+41 verbose tarball /Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz
+42 verbose folder /var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497394092-0.848658102331683/package
+43 silly lockFile 075809a2-394092-0-848658102331683-package tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497394092-0.848658102331683/package
+44 verbose lock tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497394092-0.848658102331683/package /Users/seanmcgary/.npm/075809a2-394092-0-848658102331683-package.lock
+45 silly lockFile 5a49aad9-npm-node-fleet-0-0-1-package-tgz tar:///Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz
+46 verbose lock tar:///Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz /Users/seanmcgary/.npm/5a49aad9-npm-node-fleet-0-0-1-package-tgz.lock
+47 silly lockFile 075809a2-394092-0-848658102331683-package tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497394092-0.848658102331683/package
+48 silly lockFile 075809a2-394092-0-848658102331683-package tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497394092-0.848658102331683/package
+49 silly lockFile 5a49aad9-npm-node-fleet-0-0-1-package-tgz tar:///Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz
+50 silly lockFile 5a49aad9-npm-node-fleet-0-0-1-package-tgz tar:///Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz
+51 silly lockFile 520fe54a-ary-npm-node-fleet-0-0-1-package /Users/seanmcgary/.npm/node-fleet/0.0.1/package
+52 verbose lock /Users/seanmcgary/.npm/node-fleet/0.0.1/package /Users/seanmcgary/.npm/520fe54a-ary-npm-node-fleet-0-0-1-package.lock
+53 silly lockFile 520fe54a-ary-npm-node-fleet-0-0-1-package /Users/seanmcgary/.npm/node-fleet/0.0.1/package
+54 silly lockFile 520fe54a-ary-npm-node-fleet-0-0-1-package /Users/seanmcgary/.npm/node-fleet/0.0.1/package
+55 verbose tar unpack /Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz
+56 silly lockFile 22672943-ary-npm-node-fleet-0-0-1-package tar:///Users/seanmcgary/.npm/node-fleet/0.0.1/package
+57 verbose lock tar:///Users/seanmcgary/.npm/node-fleet/0.0.1/package /Users/seanmcgary/.npm/22672943-ary-npm-node-fleet-0-0-1-package.lock
+58 silly lockFile 5a49aad9-npm-node-fleet-0-0-1-package-tgz tar:///Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz
+59 verbose lock tar:///Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz /Users/seanmcgary/.npm/5a49aad9-npm-node-fleet-0-0-1-package-tgz.lock
+60 silly gunzTarPerm modes [ '755', '644' ]
+61 silly gunzTarPerm extractEntry package.json
+62 silly gunzTarPerm extractEntry .npmignore
+63 silly gunzTarPerm extractEntry index.js
+64 silly gunzTarPerm extractEntry README.mkdn
+65 silly gunzTarPerm extractEntry examples/client.js
+66 silly gunzTarPerm extractEntry lib/errorTypes.js
+67 silly gunzTarPerm extractEntry lib/nodeFleet.js
+68 silly gunzTarPerm extractEntry lib/request.js
+69 silly lockFile 22672943-ary-npm-node-fleet-0-0-1-package tar:///Users/seanmcgary/.npm/node-fleet/0.0.1/package
+70 silly lockFile 22672943-ary-npm-node-fleet-0-0-1-package tar:///Users/seanmcgary/.npm/node-fleet/0.0.1/package
+71 silly lockFile 5a49aad9-npm-node-fleet-0-0-1-package-tgz tar:///Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz
+72 silly lockFile 5a49aad9-npm-node-fleet-0-0-1-package-tgz tar:///Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz
+73 verbose chmod /Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz 644
+74 verbose chown /Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz [ 501, 20 ]
+75 silly lockFile 3a52ce78- .
+76 silly lockFile 3a52ce78- .
+77 silly publish { name: 'node-fleet',
+77 silly publish   version: '0.0.1',
+77 silly publish   description: 'A Fleet API client',
+77 silly publish   main: 'index.js',
+77 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+77 silly publish   repository:
+77 silly publish    { type: 'git',
+77 silly publish      url: 'https://github.com/seanmcgary/node-fleet.git' },
+77 silly publish   keywords: [ 'fleet', 'coreos', 'api', 'http', 'docker', 'etcd' ],
+77 silly publish   author: { name: 'Sean McGary', email: 'sean@seanmcgary.com' },
+77 silly publish   license: 'MIT',
+77 silly publish   bugs: { url: 'https://github.com/seanmcgary/node-fleet/issues' },
+77 silly publish   dependencies: { q: '~1.0.1' },
+77 silly publish   readme: 'ERROR: No README data found!',
+77 silly publish   readmeFilename: 'README.mkdn',
+77 silly publish   _id: 'node-fleet@0.0.1',
+77 silly publish   dist: { shasum: 'a8df2b52208620864f6661a7f8211d5403309722' },
+77 silly publish   _from: '.' }
+78 verbose url raw node-fleet
+79 verbose url resolving [ 'https://registry.npmjs.org/', './node-fleet' ]
+80 verbose url resolved https://registry.npmjs.org/node-fleet
+81 info trying registry request attempt 1 at 21:49:54
+82 http PUT https://registry.npmjs.org/node-fleet
+83 http 201 https://registry.npmjs.org/node-fleet
+84 verbose url raw node-fleet
+85 verbose url resolving [ 'https://registry.npmjs.org/', './node-fleet' ]
+86 verbose url resolved https://registry.npmjs.org/node-fleet
+87 info trying registry request attempt 1 at 21:49:54
+88 http GET https://registry.npmjs.org/node-fleet
+89 http 200 https://registry.npmjs.org/node-fleet
+90 warn publish Forced publish over node-fleet@0.0.1
+91 verbose url raw node-fleet
+92 verbose url resolving [ 'https://registry.npmjs.org/', './node-fleet' ]
+93 verbose url resolved https://registry.npmjs.org/node-fleet
+94 info trying registry request attempt 1 at 21:49:54
+95 http GET https://registry.npmjs.org/node-fleet
+96 http 200 https://registry.npmjs.org/node-fleet
+97 silly registry.get cb [ 200,
+97 silly registry.get   { date: 'Fri, 12 Sep 2014 04:49:54 GMT',
+97 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+97 silly registry.get     etag: '"BPD8JM8G2O72DFEYW57GDWDT4"',
+97 silly registry.get     'content-type': 'application/json',
+97 silly registry.get     'cache-control': 'max-age=60',
+97 silly registry.get     'content-length': '1512',
+97 silly registry.get     'accept-ranges': 'bytes',
+97 silly registry.get     via: '1.1 varnish',
+97 silly registry.get     'x-served-by': 'cache-lax1434-LAX',
+97 silly registry.get     'x-cache': 'MISS',
+97 silly registry.get     'x-cache-hits': '0',
+97 silly registry.get     'x-timer': 'S1410497394.401144,VS0,VE308',
+97 silly registry.get     vary: 'Accept',
+97 silly registry.get     'keep-alive': 'timeout=10, max=50',
+97 silly registry.get     connection: 'Keep-Alive' } ]
+98 verbose unpublish removing attachments { shasum: '20cf1c035c62ddfe667f81662c2d319e3bed328a',
+98 verbose unpublish   tarball: 'http://registry.npmjs.org/node-fleet/-/node-fleet-0.0.1.tgz' }
+99 info unpublish No versions remain, removing entire package
+100 verbose url raw node-fleet/-rev/5-742e3a2bcd33bfd1262ef8801803da9b
+101 verbose url resolving [ 'https://registry.npmjs.org/',
+101 verbose url resolving   './node-fleet/-rev/5-742e3a2bcd33bfd1262ef8801803da9b' ]
+102 verbose url resolved https://registry.npmjs.org/node-fleet/-rev/5-742e3a2bcd33bfd1262ef8801803da9b
+103 info trying registry request attempt 1 at 21:49:54
+104 http DELETE https://registry.npmjs.org/node-fleet/-rev/5-742e3a2bcd33bfd1262ef8801803da9b
+105 http 201 https://registry.npmjs.org/node-fleet/-rev/5-742e3a2bcd33bfd1262ef8801803da9b
+106 verbose publish [ '.' ]
+107 verbose cache add [ '.', null ]
+108 verbose cache add name=undefined spec="." args=[".",null]
+109 verbose parsed url { protocol: null,
+109 verbose parsed url   slashes: null,
+109 verbose parsed url   auth: null,
+109 verbose parsed url   host: null,
+109 verbose parsed url   port: null,
+109 verbose parsed url   hostname: null,
+109 verbose parsed url   hash: null,
+109 verbose parsed url   search: null,
+109 verbose parsed url   query: null,
+109 verbose parsed url   pathname: '.',
+109 verbose parsed url   path: '.',
+109 verbose parsed url   href: '.' }
+110 silly lockFile 3a52ce78- .
+111 verbose lock . /Users/seanmcgary/.npm/3a52ce78-.lock
+112 verbose tar pack [ '/var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497395102-0.906900791451335/tmp.tgz',
+112 verbose tar pack   '.' ]
+113 verbose tarball /var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497395102-0.906900791451335/tmp.tgz
+114 verbose folder .
+115 silly lockFile 1f1177db-tar tar://.
+116 verbose lock tar://. /Users/seanmcgary/.npm/1f1177db-tar.lock
+117 silly lockFile 1f40b1b9-395102-0-906900791451335-tmp-tgz tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497395102-0.906900791451335/tmp.tgz
+118 verbose lock tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497395102-0.906900791451335/tmp.tgz /Users/seanmcgary/.npm/1f40b1b9-395102-0-906900791451335-tmp-tgz.lock
+119 silly lockFile 1f1177db-tar tar://.
+120 silly lockFile 1f1177db-tar tar://.
+121 silly lockFile 1f40b1b9-395102-0-906900791451335-tmp-tgz tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497395102-0.906900791451335/tmp.tgz
+122 silly lockFile 1f40b1b9-395102-0-906900791451335-tmp-tgz tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497395102-0.906900791451335/tmp.tgz
+123 verbose tar unpack /var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497395102-0.906900791451335/tmp.tgz
+124 silly lockFile 145f2a67-395102-0-906900791451335-package tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497395102-0.906900791451335/package
+125 verbose lock tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497395102-0.906900791451335/package /Users/seanmcgary/.npm/145f2a67-395102-0-906900791451335-package.lock
+126 silly lockFile 1f40b1b9-395102-0-906900791451335-tmp-tgz tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497395102-0.906900791451335/tmp.tgz
+127 verbose lock tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497395102-0.906900791451335/tmp.tgz /Users/seanmcgary/.npm/1f40b1b9-395102-0-906900791451335-tmp-tgz.lock
+128 silly gunzTarPerm modes [ '755', '644' ]
+129 silly gunzTarPerm extractEntry package.json
+130 silly gunzTarPerm extractEntry .npmignore
+131 silly gunzTarPerm extractEntry index.js
+132 silly gunzTarPerm extractEntry README.mkdn
+133 silly gunzTarPerm extractEntry examples/client.js
+134 silly gunzTarPerm extractEntry lib/errorTypes.js
+135 silly gunzTarPerm extractEntry lib/nodeFleet.js
+136 silly gunzTarPerm extractEntry lib/request.js
+137 silly lockFile 145f2a67-395102-0-906900791451335-package tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497395102-0.906900791451335/package
+138 silly lockFile 145f2a67-395102-0-906900791451335-package tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497395102-0.906900791451335/package
+139 silly lockFile 1f40b1b9-395102-0-906900791451335-tmp-tgz tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497395102-0.906900791451335/tmp.tgz
+140 silly lockFile 1f40b1b9-395102-0-906900791451335-tmp-tgz tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497395102-0.906900791451335/tmp.tgz
+141 verbose tar pack [ '/Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz',
+141 verbose tar pack   '/var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497395102-0.906900791451335/package' ]
+142 verbose tarball /Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz
+143 verbose folder /var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497395102-0.906900791451335/package
+144 silly lockFile 145f2a67-395102-0-906900791451335-package tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497395102-0.906900791451335/package
+145 verbose lock tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497395102-0.906900791451335/package /Users/seanmcgary/.npm/145f2a67-395102-0-906900791451335-package.lock
+146 silly lockFile 5a49aad9-npm-node-fleet-0-0-1-package-tgz tar:///Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz
+147 verbose lock tar:///Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz /Users/seanmcgary/.npm/5a49aad9-npm-node-fleet-0-0-1-package-tgz.lock
+148 silly lockFile 145f2a67-395102-0-906900791451335-package tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497395102-0.906900791451335/package
+149 silly lockFile 145f2a67-395102-0-906900791451335-package tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-52282--Tv2Rp3f/1410497395102-0.906900791451335/package
+150 silly lockFile 5a49aad9-npm-node-fleet-0-0-1-package-tgz tar:///Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz
+151 silly lockFile 5a49aad9-npm-node-fleet-0-0-1-package-tgz tar:///Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz
+152 silly lockFile 520fe54a-ary-npm-node-fleet-0-0-1-package /Users/seanmcgary/.npm/node-fleet/0.0.1/package
+153 verbose lock /Users/seanmcgary/.npm/node-fleet/0.0.1/package /Users/seanmcgary/.npm/520fe54a-ary-npm-node-fleet-0-0-1-package.lock
+154 silly lockFile 520fe54a-ary-npm-node-fleet-0-0-1-package /Users/seanmcgary/.npm/node-fleet/0.0.1/package
+155 silly lockFile 520fe54a-ary-npm-node-fleet-0-0-1-package /Users/seanmcgary/.npm/node-fleet/0.0.1/package
+156 verbose tar unpack /Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz
+157 silly lockFile 22672943-ary-npm-node-fleet-0-0-1-package tar:///Users/seanmcgary/.npm/node-fleet/0.0.1/package
+158 verbose lock tar:///Users/seanmcgary/.npm/node-fleet/0.0.1/package /Users/seanmcgary/.npm/22672943-ary-npm-node-fleet-0-0-1-package.lock
+159 silly lockFile 5a49aad9-npm-node-fleet-0-0-1-package-tgz tar:///Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz
+160 verbose lock tar:///Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz /Users/seanmcgary/.npm/5a49aad9-npm-node-fleet-0-0-1-package-tgz.lock
+161 silly gunzTarPerm modes [ '755', '644' ]
+162 silly gunzTarPerm extractEntry package.json
+163 silly gunzTarPerm extractEntry .npmignore
+164 silly gunzTarPerm extractEntry index.js
+165 silly gunzTarPerm extractEntry README.mkdn
+166 silly gunzTarPerm extractEntry examples/client.js
+167 silly gunzTarPerm extractEntry lib/errorTypes.js
+168 silly gunzTarPerm extractEntry lib/nodeFleet.js
+169 silly gunzTarPerm extractEntry lib/request.js
+170 silly lockFile 22672943-ary-npm-node-fleet-0-0-1-package tar:///Users/seanmcgary/.npm/node-fleet/0.0.1/package
+171 silly lockFile 22672943-ary-npm-node-fleet-0-0-1-package tar:///Users/seanmcgary/.npm/node-fleet/0.0.1/package
+172 silly lockFile 5a49aad9-npm-node-fleet-0-0-1-package-tgz tar:///Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz
+173 silly lockFile 5a49aad9-npm-node-fleet-0-0-1-package-tgz tar:///Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz
+174 verbose chmod /Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz 644
+175 verbose chown /Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz [ 501, 20 ]
+176 silly lockFile 3a52ce78- .
+177 silly lockFile 3a52ce78- .
+178 silly publish { name: 'node-fleet',
+178 silly publish   version: '0.0.1',
+178 silly publish   description: 'A Fleet API client',
+178 silly publish   main: 'index.js',
+178 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+178 silly publish   repository:
+178 silly publish    { type: 'git',
+178 silly publish      url: 'https://github.com/seanmcgary/node-fleet.git' },
+178 silly publish   keywords: [ 'fleet', 'coreos', 'api', 'http', 'docker', 'etcd' ],
+178 silly publish   author: { name: 'Sean McGary', email: 'sean@seanmcgary.com' },
+178 silly publish   license: 'MIT',
+178 silly publish   bugs: { url: 'https://github.com/seanmcgary/node-fleet/issues' },
+178 silly publish   dependencies: { q: '~1.0.1' },
+178 silly publish   readme: 'ERROR: No README data found!',
+178 silly publish   readmeFilename: 'README.mkdn',
+178 silly publish   _id: 'node-fleet@0.0.1',
+178 silly publish   dist:
+178 silly publish    { shasum: 'a8df2b52208620864f6661a7f8211d5403309722',
+178 silly publish      tarball: 'http://registry.npmjs.org/node-fleet/-/node-fleet-0.0.1.tgz' },
+178 silly publish   _from: '.',
+178 silly publish   _npmVersion: '1.3.11',
+178 silly publish   _npmUser: { name: 'seanmcgary', email: 'sean@seanmcgary.com' } }
+179 verbose url raw node-fleet
+180 verbose url resolving [ 'https://registry.npmjs.org/', './node-fleet' ]
+181 verbose url resolved https://registry.npmjs.org/node-fleet
+182 info trying registry request attempt 1 at 21:49:55
+183 http PUT https://registry.npmjs.org/node-fleet
+184 http 201 https://registry.npmjs.org/node-fleet
+185 verbose url raw node-fleet
+186 verbose url resolving [ 'https://registry.npmjs.org/', './node-fleet' ]
+187 verbose url resolved https://registry.npmjs.org/node-fleet
+188 info trying registry request attempt 1 at 21:49:55
+189 http GET https://registry.npmjs.org/node-fleet
+190 http 200 https://registry.npmjs.org/node-fleet
+191 verbose uploading [ 'node-fleet/-/node-fleet-0.0.1.tgz/-rev/7-85a0d6321ce062a53560addb6a27da59',
+191 verbose uploading   '/Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz' ]
+192 verbose url raw node-fleet/-/node-fleet-0.0.1.tgz/-rev/7-85a0d6321ce062a53560addb6a27da59
+193 verbose url resolving [ 'https://registry.npmjs.org/',
+193 verbose url resolving   './node-fleet/-/node-fleet-0.0.1.tgz/-rev/7-85a0d6321ce062a53560addb6a27da59' ]
+194 verbose url resolved https://registry.npmjs.org/node-fleet/-/node-fleet-0.0.1.tgz/-rev/7-85a0d6321ce062a53560addb6a27da59
+195 info trying registry request attempt 1 at 21:49:55
+196 http PUT https://registry.npmjs.org/node-fleet/-/node-fleet-0.0.1.tgz/-rev/7-85a0d6321ce062a53560addb6a27da59
+197 http 201 https://registry.npmjs.org/node-fleet/-/node-fleet-0.0.1.tgz/-rev/7-85a0d6321ce062a53560addb6a27da59
+198 verbose publish attached [ 'node-fleet',
+198 verbose publish   '/Users/seanmcgary/.npm/node-fleet/0.0.1/package.tgz',
+198 verbose publish   'node-fleet-0.0.1.tgz' ]
+199 verbose url raw node-fleet/0.0.1/-tag/latest
+200 verbose url resolving [ 'https://registry.npmjs.org/',
+200 verbose url resolving   './node-fleet/0.0.1/-tag/latest' ]
+201 verbose url resolved https://registry.npmjs.org/node-fleet/0.0.1/-tag/latest
+202 info trying registry request attempt 1 at 21:49:55
+203 http PUT https://registry.npmjs.org/node-fleet/0.0.1/-tag/latest
+204 http 403 https://registry.npmjs.org/node-fleet/0.0.1/-tag/latest
+205 info trying registry request attempt 1 at 21:49:56
+206 http PUT https://registry.npmjs.org/node-fleet/0.0.1/-tag/latest
+207 http 403 https://registry.npmjs.org/node-fleet/0.0.1/-tag/latest
+208 error publish Error uploading package
+209 error Error: forbidden Cannot replace previously published version: 0.0.1: node-fleet/0.0.1/-tag/latest
+209 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:272:14)
+209 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:129:22)
+209 error     at Request.EventEmitter.emit (events.js:98:17)
+209 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:873:14)
+209 error     at Request.EventEmitter.emit (events.js:117:20)
+209 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:824:12)
+209 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+209 error     at _stream_readable.js:920:16
+209 error     at process._tickCallback (node.js:415:13)
+210 error If you need help, you may report this log at:
+210 error     <http://github.com/isaacs/npm/issues>
+210 error or email it to:
+210 error     <npm-@googlegroups.com>
+211 error System Darwin 13.3.0
+212 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish" "--force"
+213 error cwd /Users/seanmcgary/Code/projects/node-fleet
+214 error node -v v0.10.21
+215 error npm -v 1.3.11
+216 verbose exit [ 1, true ]

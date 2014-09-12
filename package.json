@@ -1,6 +1,6 @@
 {
   "name": "node-fleet",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Fleet API client",
   "main": "index.js",
   "scripts": {
