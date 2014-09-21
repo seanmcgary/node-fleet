@@ -1,0 +1,47 @@
+node-fleet is a client library for interacting with the [fleet](https://github.com/coreos/fleet) REST API.
+
+## Creating the client
+
+There are two ways of creating the client:
+
+1). Use one of the included API definitions
+2). Let the client find the API discovery document and use it for generation
+
+### Using an included version
+
+```javascript
+
+var NodeFleet = require('node-fleet');
+
+var client = new NodeFleet.Client({
+	host: 'fleet-api-test',
+	port: 10000,
+	secure: false,
+	apiVersion: 'v1-alpha'
+});
+
+client.Machines.List()
+.then(function(machines){
+	console.log(machines);
+});
+```
+
+### Generate from a live disvocery document
+
+```javascript
+var NodeFleet = require('node-fleet');
+
+NodeFleet.ClientFromDiscovery({
+	host: 'fleet-api-test',
+	port: 10000,
+	secure: false,
+	apiVersion: 'v1-alpha'
+})
+.then(function(client){
+	client.Machines.List()
+	.then(function(machines){
+		console.log(machines);
+	});
+});
+
+```

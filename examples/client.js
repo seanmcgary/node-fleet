@@ -1,20 +1,33 @@
 var NodeFleet = require('../');
 
-console.log(NodeFleet);
-
-var client = new NodeFleet.Client({
-	host: 'localhost',
+var options = {
+	host: 'fleet-api-test',
 	port: 10000,
-	secure: false
-});
+	secure: false,
+	apiVersion: 'v1-alpha'
+};
 
-client.then(function(client){
-	client.Units.List()
+NodeFleet.ClientFromDiscovery(options)
+.then(function(client){
+	client.Machines.List()
 	.then(function(machines){
 		console.log(machines);
 	}, function(){
-		console.log(arguments);
+		//console.log('err');
+		//console.log(arguments);
 	});
-}, function(err){
-	console.log("CLIENT ERROR", err);
+}, function(){
+	//console.log(arguments)
+});
+
+// OR
+
+var client = new NodeFleet.Client();
+
+client.Machines.List()
+.then(function(machines){
+	console.log(machines);
+}, function(){
+	//console.log('err');
+	//console.log(arguments);
 });
