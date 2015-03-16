@@ -24,6 +24,7 @@
     "url": "https://github.com/seanmcgary/node-fleet/issues"
   },
   "dependencies": {
+    "lodash": "^3.5.0",
     "q": "~1.0.1"
   }
 }
