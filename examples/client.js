@@ -14,7 +14,6 @@ NodeFleet.ClientFromDiscovery(options)
 	.then(function(units){
 		console.log(units);
 
-
 		var someUnit = units.units[0];
 
 		var textUnitFile = NodeFleet.convertUnitJsonToText(someUnit.options);
