@@ -2,15 +2,16 @@ var NodeFleet = require('../');
 var _ = require('lodash');
 
 var options = {
-	host: '',
-	port: 10000,
+	host: '127.0.0.1',
+	port: 49153,
 	secure: false,
-	apiVersion: 'v1-alpha'
+	apiVersion: 'v1'
 };
 
 NodeFleet.ClientFromDiscovery(options)
 .then(function(client){
-	client.Units.List()
+
+	client.Machines.List()
 	.then(function(units){
 		console.log(units);
 
